@@ -7,33 +7,74 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/main.css">
 	<link rel="stylesheet" href="assets/css/common.css">
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 </head>
 <body>
 	<!-- Escribe tu código aquí -->
 	<header>
-		<div class="menu container">
-			<span><a href="#" id="Boostrap">Boostrap</a></span>
-			<a href="#" class ="text-uppercase link">Portafolio</a>
-			<a href="#" class ="text-uppercase link">About</a>
+		<div class="menu">
+			<span><a href="#" id="boostrap" class="text-uppercase">Start Boostrap</a></span>		
 			<a href="#" class ="text-uppercase link">Contact</a>
-			
+			<a href="#" class ="text-uppercase link">About</a>
+			<a href="#" class ="text-uppercase link">Portafolio</a>
 		</div>
 	</header>
-	<section class= "box-star">
-		
+	<section class= "container">
+		<div class="box-star">
+			<img src="assets/images/profile.png" alt="" id="imagen-start">
+			<div id="text-start">
+			<h2 class="text-uppercase">START BOOTSTRAP</h2>
+			<p>Web Developer -Graphic Artist - User Experience Designer</p>
+			</div>
+		</div>
 	</section>
-	<section class="box-portafolio">
-		
+	<section class="container">
+		<div class="box-portfolio">
+			<h2 class="text-uppercase">Portafolio</h2>
+			<div class=row>
+					<img src="assets/images/portfolio/cabin.png" alt="" class="col-4" id=img-1>
+					<img src="assets/images/portfolio/cake.png" alt="" class="col-4" id=img-2>
+					<img src="assets/images/portfolio/circus.png" alt="" class="col-4" id=img-3>
+					<img src="assets/images/portfolio/game.png" alt="" class="col-4" id=img-4>
+					<img src="assets/images/portfolio/safe.png" alt="" class="col-4" id=img-5>
+					<img src="assets/images/portfolio/submarine.png" alt="" class="col-4" id=img-7>
+				</div>
+		</div>
 	</section>
 	<section class="box-about">
-		
+		<div class="box-about">
+			<h2 class="text-uppercase">about</h2>
+			<p id="right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam odit possimus quo quis, tenetur nobis quisquam, ab repellat repudiandae expedita iusto veniam accusamus a? Rem in labore, deleniti quibusdam fugit.</p>
+			<p id="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In voluptas provident eveniet minima vitae magni doloremque possimus deserunt minus, autem optio delectus iure atque laboriosam molestiae eius adipisci, distinctio eligendi.</p>
+			<button id="download">Download Theme</button>
+		</div>
 	</section>
-	<section class="box-contact">
-		
+	<section class="container">
+		<div class="box-contact">
+			<h2 class="text-uppercase">contac me</h2>
+			<div id="question">
+				<input class="info-input" type="text" placeholder="Name">
+				<input class="info-input" type="email" placeholder="Email Address">
+				<input class="info-input" type="tel" placeholder="Phone Number">
+				<input class="info-input" type="text" placeholder="Message">
+				<button id="btn-datos">Send</button>
+			</div>
+		</div>
 	</section>
 	<footer>
-		
+		<div id="location">
+			<h3 class="text-uppercase">Location</h3>
+			<p>3481 Melrose Place <br> Beberly Hills,CA 90210 </p>
+		</div>
+		<div id="around">
+			<h3 class="text-uppercase">around the web</h3>
+		</div>
+		<div id="about-freelance">
+			<h3 class="text-uppercase">about freelance</h3>
+			<p>Freelance is a free to use, open source <br> Bootstrap the creates by <a href="#">Start Bootstrap</a></p>
+		</div>
+		<div>Copyright Your Website 2017</div>
 	</footer>
 	<!-- Enlaza aquí tu archivo JS -->
 	<script src="assets/js/app.js"></script>

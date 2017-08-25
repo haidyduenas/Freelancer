@@ -23,18 +23,25 @@ body {
   background-color: #fff;
   font-family: 'Raleway', sans-serif;
 }
+header{
+  position: fixed; /*Hacemos que nuestro menu este fijo*/
+  z-index: 10000;
+  background: white;
+  width: 100%;
+  top:0;
+}
 
 img {
   vertical-align: middle;
 }
 
 a {
-  color: #373B47;
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
-  color: #E95853;
+  color: #48C9B0;
 }
 
 .link{
@@ -45,9 +52,87 @@ a:hover {
 }
 
 
-header{
-  position: fixed; /*Hacemos que nuestro menu este fijo*/
-  background: white;
-  width: 100%;
-  top:0;
+.menu{
+  height: 70px;
+  background-color: #154360;
 }
+
+#boostrap{
+  font-size: 34px;
+  font-weight: bold;
+  position: absolute;
+  top: 5px;
+  left: 30px;
+}
+
+/*Configuracion  Section "Box-Star"*/
+.box-star{
+  background-color: #48C9B0;
+  position: relative;
+  top: 70px;
+  height: 470px;
+  text-align: center;
+}
+
+/*Imagen*/
+
+#imagen-start{
+  position: absolute;
+  top: 30px;
+  right: 552px;
+}
+#text-start{
+  position: absolute;
+  color: #fff;
+  bottom: 60px;
+  right: 455px;
+}
+
+.box-portfolio{
+  background-color: #fff;
+  color: #154360;
+  position: relative;
+  top: 70px;
+  height: 470px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
